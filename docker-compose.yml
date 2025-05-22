@@ -1,0 +1,181 @@
+version: '3.8'
+
+services:
+  # Spring Boot backend application
+  backend:
+    build: ./backend
+    container_name: crypto-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+      - hadoop-namenode
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/cryptodb
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - HADOOP_NAMENODE_URL=hdfs://hadoop-namenode:9000
+      - BINANCE_API_KEY=${BINANCE_API_KEY}
+      - BINANCE_SECRET_KEY=${BINANCE_SECRET_KEY}
+    networks:
+      - crypto-network
+    volumes:
+      #- ./backend:/app
+      - ~/.m2:/root/.m2
+
+  # Frontend application
+  frontend:
+    build: ./frontend
+    container_name: crypto-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080/api
+    networks:
+      - crypto-network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14
+    container_name: crypto-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=cryptodb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - crypto-network
+
+  # Hadoop NameNode
+  hadoop-namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: hadoop-namenode
+    ports:
+      - "9870:9870" # Namenode web UI
+      - "9000:9000" # HDFS
+    environment:
+      - CLUSTER_NAME=crypto-hadoop-cluster
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+    volumes:
+      - hadoop-namenode-data:/hadoop/dfs/name
+    networks:
+      - crypto-network
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9870" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Hadoop DataNode
+  hadoop-datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: hadoop-datanode
+    depends_on:
+      - hadoop-namenode
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://hadoop-namenode:9000
+    volumes:
+      - hadoop-datanode-data:/hadoop/dfs/data
+    networks:
+      - crypto-network
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9864" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Sqoop for data transfer
+  sqoop:
+    image: dvoros/sqoop:latest
+    container_name: crypto-sqoop
+    depends_on:
+      - hadoop-namenode
+      - postgres
+    volumes:
+      - ./sqoop/scripts:/scripts
+      - ./sqoop/jobs:/jobs
+    environment:
+      - HADOOP_NAMENODE=hadoop-namenode
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=cryptodb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - crypto-network
+    command: tail -f /dev/null # Keep container running
+
+  # Apache Spark Master
+  spark-master:
+    image: bitnami/spark:3.3.0
+    container_name: spark-master
+    ports:
+      - "8181:8080" # Web UI
+      - "7077:7077" # Spark master port
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    volumes:
+      - ./spark/apps:/opt/spark/apps
+      - ./spark/data:/opt/spark/data
+    networks:
+      - crypto-network
+
+  # Apache Spark Worker
+  spark-worker:
+    image: bitnami/spark:3.3.0
+    container_name: spark-worker
+    ports:
+      - "8182:8081" # Web UI
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    volumes:
+      - ./spark/apps:/opt/spark/apps
+      - ./spark/data:/opt/spark/data
+    networks:
+      - crypto-network
+
+  # Jupyter Notebook for ML development
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    container_name: crypto-jupyter
+    ports:
+      - "8888:8888"
+    depends_on:
+      - spark-master
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - SPARK_MASTER=spark://spark-master:7077
+    volumes:
+      - ./spark/notebooks:/home/jovyan/work
+    networks:
+      - crypto-network
+
+networks:
+  crypto-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
+  hadoop-namenode-data:
+  hadoop-datanode-data:

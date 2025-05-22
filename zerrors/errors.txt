@@ -1,0 +1,439 @@
+2025-05-21 10:13:57 Hibernate: 
+2025-05-21 10:13:57     select
+2025-05-21 10:13:57         cryptopric0_.id as id1_0_,
+2025-05-21 10:13:57         cryptopric0_.high24h as high2_0_,
+2025-05-21 10:13:57         cryptopric0_.low24h as low3_0_,
+2025-05-21 10:13:57         cryptopric0_.market_cap as market_c4_0_,
+2025-05-21 10:13:57         cryptopric0_.price as price5_0_,
+2025-05-21 10:13:57         cryptopric0_.price_change_percent24h as price_ch6_0_,
+2025-05-21 10:13:57         cryptopric0_.symbol as symbol7_0_,
+2025-05-21 10:13:57         cryptopric0_.timestamp as timestam8_0_,
+2025-05-21 10:13:57         cryptopric0_.volume24h as volume9_0_ 
+2025-05-21 10:13:57     from
+2025-05-21 10:13:57         crypto_prices cryptopric0_ 
+2025-05-21 10:13:57     where
+2025-05-21 10:13:57         cryptopric0_.symbol=? 
+2025-05-21 10:13:57     order by
+2025-05-21 10:13:57         cryptopric0_.timestamp desc limit ?
+2025-05-21 10:13:57 Hibernate: 
+2025-05-21 10:13:57     select
+2025-05-21 10:13:57         cryptopric0_.id as id1_0_,
+2025-05-21 10:13:57         cryptopric0_.high24h as high2_0_,
+2025-05-21 10:13:57         cryptopric0_.low24h as low3_0_,
+2025-05-21 10:13:57         cryptopric0_.market_cap as market_c4_0_,
+2025-05-21 10:13:57         cryptopric0_.price as price5_0_,
+2025-05-21 10:13:57         cryptopric0_.price_change_percent24h as price_ch6_0_,
+2025-05-21 10:13:57         cryptopric0_.symbol as symbol7_0_,
+2025-05-21 10:13:57         cryptopric0_.timestamp as timestam8_0_,
+2025-05-21 10:13:57         cryptopric0_.volume24h as volume9_0_ 
+2025-05-21 10:13:57     from
+2025-05-21 10:13:57         crypto_prices cryptopric0_ 
+2025-05-21 10:13:57     where
+2025-05-21 10:13:57         cryptopric0_.symbol=? 
+2025-05-21 10:13:57     order by
+2025-05-21 10:13:57         cryptopric0_.timestamp desc limit ?
+2025-05-21 10:13:57 Hibernate: 
+2025-05-21 10:13:57     select
+2025-05-21 10:13:57         cryptopric0_.id as id1_0_,
+2025-05-21 10:13:57         cryptopric0_.high24h as high2_0_,
+2025-05-21 10:13:57         cryptopric0_.low24h as low3_0_,
+2025-05-21 10:13:57         cryptopric0_.market_cap as market_c4_0_,
+2025-05-21 10:13:57         cryptopric0_.price as price5_0_,
+2025-05-21 10:13:57         cryptopric0_.price_change_percent24h as price_ch6_0_,
+2025-05-21 10:13:57         cryptopric0_.symbol as symbol7_0_,
+2025-05-21 10:13:57         cryptopric0_.timestamp as timestam8_0_,
+2025-05-21 10:13:57         cryptopric0_.volume24h as volume9_0_ 
+2025-05-21 10:13:57     from
+2025-05-21 10:13:57         crypto_prices cryptopric0_ 
+2025-05-21 10:13:57     where
+2025-05-21 10:13:57         cryptopric0_.symbol=? 
+2025-05-21 10:13:57     order by
+2025-05-21 10:13:57         cryptopric0_.timestamp desc limit ?
+2025-05-21 10:13:57 Hibernate: 
+2025-05-21 10:13:57     select
+2025-05-21 10:13:57         cryptopric0_.id as id1_0_,
+2025-05-21 10:13:57         cryptopric0_.high24h as high2_0_,
+2025-05-21 10:13:57         cryptopric0_.low24h as low3_0_,
+2025-05-21 10:13:57         cryptopric0_.market_cap as market_c4_0_,
+2025-05-21 10:13:57         cryptopric0_.price as price5_0_,
+2025-05-21 10:13:57         cryptopric0_.price_change_percent24h as price_ch6_0_,
+2025-05-21 10:13:57         cryptopric0_.symbol as symbol7_0_,
+2025-05-21 10:13:57         cryptopric0_.timestamp as timestam8_0_,
+2025-05-21 10:13:57         cryptopric0_.volume24h as volume9_0_ 
+2025-05-21 10:13:57     from
+2025-05-21 10:13:57         crypto_prices cryptopric0_ 
+2025-05-21 10:13:57     where
+2025-05-21 10:13:57         cryptopric0_.symbol=? 
+2025-05-21 10:13:57     order by
+2025-05-21 10:13:57         cryptopric0_.timestamp desc limit ?
+2025-05-21 10:13:57 Hibernate: 
+2025-05-21 10:13:57     select
+2025-05-21 10:13:57         cryptopric0_.id as id1_0_,
+2025-05-21 10:13:57         cryptopric0_.high24h as high2_0_,
+2025-05-21 10:13:57         cryptopric0_.low24h as low3_0_,
+2025-05-21 10:13:57         cryptopric0_.market_cap as market_c4_0_,
+2025-05-21 10:13:57         cryptopric0_.price as price5_0_,
+2025-05-21 10:13:57         cryptopric0_.price_change_percent24h as price_ch6_0_,
+2025-05-21 10:13:57         cryptopric0_.symbol as symbol7_0_,
+2025-05-21 10:13:57         cryptopric0_.timestamp as timestam8_0_,
+2025-05-21 10:13:57         cryptopric0_.volume24h as volume9_0_ 
+2025-05-21 10:13:57     from
+2025-05-21 10:13:57         crypto_prices cryptopric0_ 
+2025-05-21 10:13:57     where
+2025-05-21 10:13:57         cryptopric0_.symbol=? 
+2025-05-21 10:13:57     order by
+2025-05-21 10:13:57         cryptopric0_.timestamp desc limit ?
+2025-05-21 10:13:57 2025-05-21 09:13:57.023 ERROR 1 --- [nio-8080-exec-9] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: No price data found for symbol: ETHUSDT] with root cause
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 java.lang.RuntimeException: No price data found for symbol: ETHUSDT
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.lambda$getLatestPrice$0(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.getLatestPrice(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController.getLatestPrice(CryptoPriceController.java:30) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$FastClassBySpringCGLIB$$ea6a8bcd.invoke(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$EnhancerBySpringCGLIB$$5dd1bc38.getLatestPrice(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at com.crypto.platform.security.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:44) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 2025-05-21 09:13:57.024 ERROR 1 --- [io-8080-exec-10] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: No price data found for symbol: BTCUSDT] with root cause
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 java.lang.RuntimeException: No price data found for symbol: BTCUSDT
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.lambda$getLatestPrice$0(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.getLatestPrice(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController.getLatestPrice(CryptoPriceController.java:30) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$FastClassBySpringCGLIB$$ea6a8bcd.invoke(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$EnhancerBySpringCGLIB$$5dd1bc38.getLatestPrice(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at com.crypto.platform.security.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:44) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 2025-05-21 09:13:57.026 ERROR 1 --- [nio-8080-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: No price data found for symbol: DOGEUSDT] with root cause
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 java.lang.RuntimeException: No price data found for symbol: DOGEUSDT
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.lambda$getLatestPrice$0(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.getLatestPrice(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController.getLatestPrice(CryptoPriceController.java:30) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$FastClassBySpringCGLIB$$ea6a8bcd.invoke(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$EnhancerBySpringCGLIB$$5dd1bc38.getLatestPrice(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.71.jar!/:4.0.1]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at com.crypto.platform.security.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:44) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-5.7.6.jar!/:5.7.6]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar!/:na]
+2025-05-21 10:13:57     at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 2025-05-21 09:13:57.028 ERROR 1 --- [nio-8080-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: No price data found for symbol: BNBUSDT] with root cause
+2025-05-21 10:13:57 
+2025-05-21 10:13:57 java.lang.RuntimeException: No price data found for symbol: BNBUSDT
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.lambda$getLatestPrice$0(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at java.base/java.util.Optional.orElseThrow(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at com.crypto.platform.service.BinanceService.getLatestPrice(BinanceService.java:96) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController.getLatestPrice(CryptoPriceController.java:30) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$FastClassBySpringCGLIB$$ea6a8bcd.invoke(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at com.crypto.platform.controller.CryptoPriceController$$EnhancerBySpringCGLIB$$5dd1bc38.getLatestPrice(<generated>) ~[classes!/:0.0.1-SNAPSHOT]
+2025-05-21 10:13:57     at jdk.internal.reflect.GeneratedMethodAccessor30.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.25.jar!/:5.3.25]
+2025-05-21 10:13:57     at org.springframewor
